@@ -46,7 +46,10 @@ def main():
     ax.plot(xline, slope * xline, color="#111827", lw=1.5)
     ax.axhline(0, color="#6B7280", lw=0.85, ls="--")
     ax.axvline(0, color="#6B7280", lw=0.85, ls="--")
-    label_offsets = {"西藏": (8, 0), "青海": (8, 3), "新疆": (10, -18)}
+    label_offsets = {
+        "西藏": (8, 0), "青海": (8, 3), "新疆": (10, -18),
+        "四川": (-24, -11), "云南": (-27, -11), "甘肃": (-24, -8),
+    }
     for province, offset in label_offsets.items():
         row = data[data["province"] == province]
         if not row.empty:
