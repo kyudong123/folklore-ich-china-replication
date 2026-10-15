@@ -1,0 +1,10 @@
+# Generated figures and supplementary table exports are created locally.
+/results/figures/
+/results/spatial/Supplementary_Table_S1_Local_Moran_Queen_9999.csv
+/results/tables/Supplementary_Table_S2_Denominator_2010_2020.csv
+/results/tables/Supplementary_Table_S3_Record_Level_Inclusion_Geographic_Matching.csv
+/results/tables/Supplementary_Table_S3_README.md
+
+# Generated local verification output and run log
+/audit/python_verification.txt
+/results/tables/08_run_summary.txt

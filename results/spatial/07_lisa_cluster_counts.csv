@@ -1,0 +1,8 @@
+﻿indicator,weights,HH,LH,LL,NS,HL,BH_FDR_discoveries,BY_FDR_discoveries
+Assuncao-Reis EB-standardized rate,Queen row-standardized,3,1,0,27,0,0,0
+OLS residual,KNN-4 row-standardized,0,1,0,30,0,0,0
+OLS residual,Queen row-standardized,0,1,1,29,0,0,0
+crude rate,KNN-4 row-standardized,3,0,0,28,0,0,0
+crude rate,Queen row-standardized,3,2,0,26,0,0,0
+raw count,KNN-4 row-standardized,0,2,1,28,0,0,0
+raw count,Queen row-standardized,2,0,0,29,0,0,0

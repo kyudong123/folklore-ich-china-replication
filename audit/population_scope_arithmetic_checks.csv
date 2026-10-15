@@ -1,0 +1,13 @@
+check,observed,reference,pass
+canonical_matches_official_pop_2020,1,1,True
+canonical_matches_official_minority_pop_2020,1,1,True
+canonical_matches_official_minority_pct_2020,1,1,True
+canonical_matches_official_minority_share_2020,1,1,True
+canonical_matches_official_han_pop_2020,1,1,True
+canonical_matches_official_han_pct_2020,1,1,True
+canonical_matches_official_naturalized_pop_2020,1,1,True
+provincial_resident_population_sum,1409778724,1409778724,True
+provincial_minority_population_sum,125315740,125315740,True
+provincial_han_population_sum,1284446389,1284446389,True
+provincial_naturalized_population_sum,16595,16595,True
+han_plus_minority_plus_naturalized_equals_resident_population,1,1,True

@@ -1,0 +1,16 @@
+variable,definition,unit_or_encoding,role_and_notes
+province,Mainland provincial-level unit,Chinese administrative unit,Unique row identifier; 31 units
+pop_2020,2020 resident population,persons,Population denominator and count-model exposure
+minority_pop_2020,Population in the 55 listed ethnic minority groups plus unclassified ethnicity,persons,Numerator for minority population share; separately reported naturalized population excluded
+minority_pct_2020,Minority population share expressed as percentage,percent (0–100),Descriptive display version; equals 100 × minority_share_2020
+minority_share_2020,Minority population divided by resident population,proportion (0–1),Main explanatory variable; not a measure of ethnic/cultural diversity
+han_pop_2020,Population in the Han category as tabulated,persons,Population-composition descriptive variable
+han_pct_2020,Han population divided by resident population,percent (0–100),Descriptive display version
+naturalized_pop_2020,Naturalized population reported separately in the census table,persons,Retained as a separate field; excluded from minority_pop_2020
+folklore_count,Count of nationally listed ICH records officially categorized as folklore and assigned to the province,records,Count outcome / numerator for rate
+pop_million,Resident population divided by 1,000,000,million persons,Rate denominator
+folklore_per_million,folklore_count divided by pop_million,nationally listed records per million residents,Main population-standardized outcome; not cultural prevalence
+source_ids,Semicolon-separated source IDs assigned to the province,identifier list,Audit linkage back to record-level input
+log_pop_offset,Natural logarithm of pop_2020,log persons,Exposure offset used in Poisson/NB2 count models
+minority_share_10pp,minority_share_2020 divided by 0.1,10-percentage-point units,Rescaled explanatory variable for reported model effects
+minority_share,Alias of minority_share_2020,proportion (0–1),Model input compatibility field

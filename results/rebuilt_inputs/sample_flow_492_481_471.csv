@@ -1,0 +1,6 @@
+﻿stage,n,unit,rule
+Official folklore records,492,unique source records,Official category = folklore
+Unassigned to a regional/provincial location,11,source records,National/central unit; no assignable province
+Regionally assigned records,481,source records,"Includes mainland, Hong Kong, and Macao"
+Mainland records in population/spatial analysis,471,source records,31 mainland provincial units; excludes Hong Kong and Macao
+Population/spatial analysis units,31,provinces,One observation per mainland province
