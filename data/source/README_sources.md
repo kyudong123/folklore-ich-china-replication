@@ -13,7 +13,3 @@ This register identifies the source files and provenance used in the provincial 
 | `geocoding_reference_county_above.csv` | Supporting administrative-location reference table used in county-first matching | Used alongside reported project locations and the documented match decisions |
 
 The record-level inclusion and geographic-matching decisions are documented in `data/intermediate/record_inclusion_geocoding_audit.csv`. Variable definitions and units are listed in `data/intermediate/data_dictionary.csv`.
-
-The local boundary file does not preserve enough metadata to identify its original download or conversion. A public `cn-atlas.json` TopoJSON with the same object names was checked on 2026-10-15; it differs in file size and SHA-256 from the local file, so matching structure is not treated as evidence of common provenance. The project source record attributes the boundary input to the National Platform, but the exact platform product/version used for this local derivative remains unverified.
-
-The national ICH source website requires attribution to relevant authors and the website when its content is reproduced. Its copyright notice restricts commercial reuse without prior written authorization and prohibits unauthorized modification of website content. See the [official copyright notice](https://www.ihchina.cn/about/206.html).

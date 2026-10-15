@@ -18,6 +18,4 @@ The scripts reconstruct the analysis inputs, calculate descriptive and regressio
 
 The source register is in `data/source/README_sources.md`. The item-level inclusion and geographic-matching audit is in `data/intermediate/record_inclusion_geocoding_audit.csv`. Variable names, definitions, and units are documented in `data/intermediate/data_dictionary.csv`. The provincial panel and spatial weights used for analysis are in `data/processed/` and `data/weights/`.
 
-The national ICH source website requires attribution to relevant authors and to the website when its content is reproduced. Its copyright notice also restricts commercial reuse without prior written authorization and prohibits unauthorized modification of website content. See the [official copyright notice](https://www.ihchina.cn/about/206.html). These terms apply to website-originated records and material in this package.
-
 `MANIFEST_sha256.csv` lists file sizes and SHA-256 hashes for the current package. Rebuild it after package changes with `python src/build_manifest.py`.
